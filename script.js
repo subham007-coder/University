@@ -18,7 +18,6 @@ function Show(colleges){
         makeLi.textContent = collArr.name;
         ul.append(makeLi);
         
-        console.log(collArr.name);
         console.log(collArr.web_pages);
     });
 }
