@@ -21,7 +21,7 @@ function Show(colleges){
 
         console.log(collArr.web_pages);
     });
-}
+};
 
 async function getUniversity(country) {
     try {
@@ -30,4 +30,4 @@ async function getUniversity(country) {
     } catch (err) {
         return [];
     }
-}
+};
